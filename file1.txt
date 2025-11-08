@@ -1,9 +1,9 @@
-variable "vpc_cidr" {
+ariable "vpc_cidr" {
 	default = "10.0.0.0/16"
 }
 
 variable "env" {
-	default = "DeveloperA"
+	default = "Development"
 }
 
 variable "public_subnet_ciers" {
@@ -12,3 +12,10 @@ variable "public_subnet_ciers" {
 		"10.0.2.0/24"
 	]
 }
+<<<<<<< HEAD
+=======
+
+variable "tags" {
+	default = {}
+}
+>>>>>>> fixingbug/developerB
