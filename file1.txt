@@ -16,6 +16,8 @@ variable "public_subnet_ciers" {
 =======
 
 variable "tags" {
-	default = {}
+	default = {
+		Owner = "Ivan Ivanov"
+	}
 }
 >>>>>>> fixingbug/developerB
