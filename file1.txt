@@ -1,4 +1,4 @@
-ariable "vpc_cidr" {
+variable "vpc_cidr" {
 	default = "10.0.0.0/16"
 }
 
@@ -12,12 +12,11 @@ variable "public_subnet_ciers" {
 		"10.0.2.0/24"
 	]
 }
-<<<<<<< HEAD
-=======
 
 variable "tags" {
 	default = {
-		Owner = "Ivan Ivanov"
+		Owner = "IvanIvanov123"
+		Project = "Silva"
 	}
 }
->>>>>>> fixingbug/developerB
+
